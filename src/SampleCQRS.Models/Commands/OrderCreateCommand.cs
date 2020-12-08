@@ -3,11 +3,11 @@ using SampleCQRS.Models.Dto;
 
 namespace SampleCQRS.Models.Commands
 {
-    public class OrderCommand: IRequest<ProductResult> 
+    public class ProductCreateCommand: IRequest<ProductResult> 
     {
         public Guid Id { get; set; }
 
-        public OrderCommand(Guid id)
+        public ProductCreateCommand(Guid id)
         {
             this.Id = id;
         }

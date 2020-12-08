@@ -3,16 +3,16 @@ using SampleCQRS.Models.Dto;
 
 namespace SampleCQRS.Models.Queries
 {
-    public class QueriesHandler: IRequestHandler<ProductQuery, ProductResult> 
+    public class QueriesHandler: IRequestHandler<ProductQueryById, ProductResult> 
     {
         private readonly ProductService productService;
 
-        public OrderQueryHandler()
+        public QueriesHandler()
         {
             this.productService = new ProductService();
         }
 
-       public async Task<OrderData> Handle(ProductQuery request, CancellationToken cancellationToken)
+       public async Task<OrderData> Handle(ProductQueryById request, CancellationToken cancellationToken)
         {
             var result = this.productService.FindById(request.Id);
             return result;
