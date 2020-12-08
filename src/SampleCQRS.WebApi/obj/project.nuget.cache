@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Opgh+pQ2RhRiSbQiTDC+gGL6kewBFZ2Ni1rLEM1BmbuwFpJEbGNmMfCFSbArzU0Y8WsXfK4bVUUCETGIHQJuRQ==",
+  "dgSpecHash": "ZcRgwhSMjsrUevj4TB/yczjRk/d8YquahWEquWQs9Mxu/dQos/uuwSGzrV0IMumNsH5oSLhHD2u+3h4/XIQ5Vw==",
   "success": true,
-  "projectFilePath": "/home/ziagham/Programming/Github/Sample-MediatR/SampleMediatR/SampleMediatR.csproj",
+  "projectFilePath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
   "expectedPackageFiles": [
     "/home/ziagham/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.0/microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace SampleMediatR.Controllers
+namespace SampleCQRS.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

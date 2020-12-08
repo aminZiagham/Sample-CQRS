@@ -591,11 +591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ziagham/Programming/Github/Sample-MediatR/SampleMediatR/SampleMediatR.csproj",
-      "projectName": "SampleMediatR",
-      "projectPath": "/home/ziagham/Programming/Github/Sample-MediatR/SampleMediatR/SampleMediatR.csproj",
+      "projectUniqueName": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
+      "projectName": "SampleCQRS.WebApi",
+      "projectPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
       "packagesPath": "/home/ziagham/.nuget/packages/",
-      "outputPath": "/home/ziagham/Programming/Github/Sample-MediatR/SampleMediatR/obj/",
+      "outputPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ziagham/.nuget/NuGet/NuGet.Config"

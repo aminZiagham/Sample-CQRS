@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace SampleMediatR
+namespace SampleCQRS.WebApi
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace SampleMediatR
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SampleMediatR", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SampleCQRS.WebApi", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace SampleMediatR
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SampleMediatR v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SampleCQRS.WebApi v1"));
             }
 
             app.UseHttpsRedirection();

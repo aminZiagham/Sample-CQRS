@@ -1,6 +1,6 @@
 using System;
 
-namespace SampleMediatR
+namespace SampleCQRS.WebApi
 {
     public class WeatherForecast
     {

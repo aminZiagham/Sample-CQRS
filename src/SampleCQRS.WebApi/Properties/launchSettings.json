@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:58670",
-      "sslPort": 44388
+      "applicationUrl": "http://localhost:25438",
+      "sslPort": 44309
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SampleMediatR": {
+    "SampleCQRS.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
