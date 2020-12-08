@@ -1,0 +1,5 @@
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.csprojAssemblyReference.cache
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.AssemblyInfoInputs.cache
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.AssemblyInfo.cs
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.csproj.CoreCompileInputs.cache
