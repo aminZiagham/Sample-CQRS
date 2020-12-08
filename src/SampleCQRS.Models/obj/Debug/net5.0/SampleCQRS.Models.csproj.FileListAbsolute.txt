@@ -3,3 +3,10 @@
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.AssemblyInfoInputs.cache
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.AssemblyInfo.cs
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.csproj.CoreCompileInputs.cache
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/bin/Debug/net5.0/SampleCQRS.Models.deps.json
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/bin/Debug/net5.0/SampleCQRS.Models.dll
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/bin/Debug/net5.0/ref/SampleCQRS.Models.dll
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/bin/Debug/net5.0/SampleCQRS.Models.pdb
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.dll
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/ref/SampleCQRS.Models.dll
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/Debug/net5.0/SampleCQRS.Models.pdb

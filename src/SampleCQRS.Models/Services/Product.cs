@@ -8,11 +8,11 @@ namespace SampleCQRS.Models.Services
         public string ProductName { get; private set; }
         public DateTime CreationDate { get; private set; }
 
-        public static Add(Guid id, string productName, DateTime creationDate)
+        public static Product Add(Guid id, string productName, DateTime creationDate)
         {
             return new Product
             {
-                Id = Id,
+                Id = id,
                 ProductName = productName,
                 CreationDate = creationDate
             };

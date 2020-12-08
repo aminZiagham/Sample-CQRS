@@ -1,11 +1,14 @@
-using MediateR;
-using SampleCQRS.Models.Dto;
+using MediatR;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using SampleCQRS.Models.Services;
 
 namespace SampleCQRS.Models.Queries
 {
     public class QueriesHandler: 
-        IRequestHandler<ProductQueryById, ProductResult>,
-        IRequestHandler<ProductsListQuery, IEnumerable<ProductResult>> 
+        IRequestHandler<ProductQueryById, Product>,
+        IRequestHandler<ProductsListQuery, IEnumerable<Product>> 
     {
         private readonly ProductService productService;
 
@@ -14,12 +17,12 @@ namespace SampleCQRS.Models.Queries
             this.productService = new ProductService();
         }
 
-        public async Task<IEnumerable<ProductResult>> Handle(ProductsListQuery request, CancellationToken cancellationToken)
+        public Task<IEnumerable<Product>> Handle(ProductsListQuery request, CancellationToken cancellationToken)
         {
             return this.productService.GetProducts();
         }
 
-        public async Task<OrderData> Handle(ProductQueryById request, CancellationToken cancellationToken)
+        public Task<Product> Handle(ProductQueryById request, CancellationToken cancellationToken)
         {
             var result = this.productService.FindById(request.Id);
             return result;

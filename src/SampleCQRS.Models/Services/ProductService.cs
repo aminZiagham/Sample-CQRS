@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace SampleCQRS.Models.Services 
 {
@@ -14,20 +16,23 @@ namespace SampleCQRS.Models.Services
             productRepository = new List<Product>();
         }
 
-        public AddProduct(string productName)
+        public Task<Product> AddProduct(string productName)
         {
-            var product = Product.Add(Guid.NewGuid, productName, DateTime.Now);
+            var product = Product.Add(Guid.NewGuid(), productName, DateTime.Now);
             productRepository.Add(product);
+            return Task.FromResult(product);
         }
 
-        public IEnumerable<Product> FindById(Guid id)
+        public Task<Product> FindById(Guid id)
         {
-            return productRepository.Where(p->p.Id == id).FirstOrDefault();
+            var result = productRepository.Where(p=>p.Id == id).FirstOrDefault();
+            return Task.FromResult(result);
         }
 
-        public IEnumerable<Product> GetProducts()
+        public Task<IEnumerable<Product>> GetProducts()
         {
-            return productRepository.Tolist();
+            var result = productRepository.AsEnumerable();
+            return Task.FromResult(result);
         }
     }
 }

@@ -1,15 +1,15 @@
-using MediateR;
-using SampleCQRS.Models.Dto;
+using MediatR;
+using SampleCQRS.Models.Services;
 
 namespace SampleCQRS.Models.Commands
 {
-    public class ProductCreateCommand: IRequest<ProductResult> 
+    public class ProductCreateCommand: IRequest<Product> 
     {
-        public Guid Id { get; set; }
+        public string Name { get; set; }
 
-        public ProductCreateCommand(Guid id)
+        public ProductCreateCommand(string name)
         {
-            this.Id = id;
+            this.Name = name;
         }
     }
 }

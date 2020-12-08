@@ -4,14 +4,14 @@
     "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj": {}
   },
   "projects": {
-    "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj": {
+    "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/SampleCQRS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
-        "projectName": "SampleCQRS.WebApi",
-        "projectPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
+        "projectUniqueName": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/SampleCQRS.Models.csproj",
+        "projectName": "SampleCQRS.Models",
+        "projectPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/SampleCQRS.Models.csproj",
         "packagesPath": "/home/ziagham/.nuget/packages/",
-        "outputPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/",
+        "outputPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ziagham/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,72 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
+        "projectName": "SampleCQRS.WebApi",
+        "projectPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
+        "packagesPath": "/home/ziagham/.nuget/packages/",
+        "outputPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ziagham/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/SampleCQRS.Models.csproj": {
+                "projectPath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.Models/SampleCQRS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.0, )",
