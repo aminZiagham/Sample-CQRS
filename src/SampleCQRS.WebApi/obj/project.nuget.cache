@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "X68XWBfyFcLQeFWNv0xzcpJvZFdZmSHRyTxvEb/014v4mJlYgzDXPEb/0AXTHg0vrFIadU9/Mcdng8K1+DOUxA==",
+  "dgSpecHash": "507mbD5Vv99JYJSd+QuzAb/gSmifALYW0GWaE9TBvw1WKZm6tILNYWnVWIyBAS3mCv7SSNjKjsKUGwxIJFbsQw==",
   "success": true,
   "projectFilePath": "/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/SampleCQRS.WebApi.csproj",
   "expectedPackageFiles": [
     "/home/ziagham/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/ziagham/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/5.0.0/microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/ziagham/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
     "/home/ziagham/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",

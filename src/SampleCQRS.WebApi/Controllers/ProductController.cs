@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using SampleCQRS.Models.Commands;
 using SampleCQRS.Models.Queries;
 
 namespace SampleCQRS.WebApi.Controllers
@@ -36,16 +37,21 @@ namespace SampleCQRS.WebApi.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+
         }
 
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("{name}")]
+        public async Task<IActionResult> Put(string name)
         {
+            var command = new ProductCreateCommand(name);
+            var result = await mediator.Send(command);
+            return Ok(result);
         }
 
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+
         }
     }
 }

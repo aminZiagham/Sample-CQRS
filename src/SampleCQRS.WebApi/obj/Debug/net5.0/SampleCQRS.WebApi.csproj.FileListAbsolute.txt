@@ -38,3 +38,4 @@
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/Debug/net5.0/ref/SampleCQRS.WebApi.dll
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/Debug/net5.0/SampleCQRS.WebApi.pdb
 /home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/obj/Debug/net5.0/SampleCQRS.WebApi.genruntimeconfig.cache
+/home/ziagham/Programming/Github/Sample-CQRS/src/SampleCQRS.WebApi/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
