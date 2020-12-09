@@ -4,5 +4,5 @@ A sample project to illustrate use Command Query Responsibility Segregation (CQR
 <b>Add package to the both projects:</b>  
 dotnet add package MediatR
 
-<b>and add MediatR extensuion to the Api project:</b>  
+<b>and add MediatR extension to the Api project:</b>  
 dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
