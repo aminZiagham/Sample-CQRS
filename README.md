@@ -1,8 +1,8 @@
 # Sample-CQRS
 A sample project to illustrate use Command Query Responsibility Segregation (CQRS) pattern using MediatR in dotnet core.
 
-Add package to the both projects:  
+<b>Add package to the both projects:</b>  
 dotnet add package MediatR
 
-and add MediatR extensuion to the Api project:  
+<b>and add MediatR extensuion to the Api project:</b>  
 dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
